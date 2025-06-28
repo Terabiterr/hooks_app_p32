@@ -10,13 +10,11 @@ namespace hooks_app
         static extern bool SetCursorPos(int X, int Y);
         static void Main(string[] args)
         {
-            for (int i = 0; i < 10; i++)
+            while(true)
             {
-                SetCursorPos(100 + i * 10, 100 + i * 10);
+                SetCursorPos(new Random().Next(1, 2000), new Random().Next(1, 2000));
                 Thread.Sleep(1000);
-            }
-            Console.WriteLine("Done!");
-            Console.ReadLine();
+            } 
         }
     }
 }

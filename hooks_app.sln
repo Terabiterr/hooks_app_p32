@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseHookTestApp", "hooks_a
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseHookLib", "MouseHookLib\MouseHookLib.csproj", "{D21295D4-7A94-4759-B584-AA494DDA4012}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseHookInjector", "MouseHookInjector\MouseHookInjector.csproj", "{8B84F06D-149A-4A9F-B589-D3F04EEBE71A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D21295D4-7A94-4759-B584-AA494DDA4012}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D21295D4-7A94-4759-B584-AA494DDA4012}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D21295D4-7A94-4759-B584-AA494DDA4012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B84F06D-149A-4A9F-B589-D3F04EEBE71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B84F06D-149A-4A9F-B589-D3F04EEBE71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B84F06D-149A-4A9F-B589-D3F04EEBE71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B84F06D-149A-4A9F-B589-D3F04EEBE71A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
